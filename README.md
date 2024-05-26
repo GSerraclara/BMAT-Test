@@ -10,7 +10,7 @@
     - Explanation:
         - How does it work?: S3 provides scalable object storage with high availability and durability. It can store and retrieve any amount of data at any time.
         - Mounting: It should not be directly mounted as a filesystem for all components due to its nature as an object storage service rather than a block storage service. Instead, S3 should be accessed via APIs for storing and retrieving data.
-        - eason: S3 is designed for scalability and cost-efficiency, making it suitable for large storage needs shared among all system components.
+        - Reason: S3 is designed for scalability and cost-efficiency, making it suitable for large storage needs shared among all system components.
 
 2. Database with high insert and search performance
     - Service: RDS
